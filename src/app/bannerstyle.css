@@ -1,0 +1,48 @@
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .category {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative; 
+  }
+  
+  .category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category h2 {
+    font-size: 4em;
+    font-family: "Inter";
+    margin-bottom: 20px;
+    color: white;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  .category p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .category img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+  }
+  
+  
